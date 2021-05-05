@@ -1,5 +1,14 @@
+#valgrind
 vgcore*
+
+#lib
 libmy.a
+
+#obj
 *.o
+
+#binary
 segfault
+
+#vscode
 .vscode
