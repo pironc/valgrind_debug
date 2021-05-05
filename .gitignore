@@ -1,0 +1,5 @@
+vgcore*
+libmy.a
+*.o
+segfault
+.vscode
