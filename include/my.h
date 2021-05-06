@@ -19,6 +19,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include <time.h>
 
 /* STRUCTS */
 
@@ -40,6 +41,8 @@ void invalid_write_size_8(void);
 
 /* Invalid Read */
 void invalid_read_size_1(void);
+void invalid_read_size_4(void);
+void invalid_read_size_8(void);
 
 /* Memory leaks */
 void memory_leaks(void);

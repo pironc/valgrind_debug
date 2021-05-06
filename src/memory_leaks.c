@@ -10,7 +10,7 @@
 void invalid_free(void)
 {
     char *to_parse = "name:cyprien;surname:piron;age:20;activity:valgrind;\
-usefulinyournextprojects:ihopeso;wouldyouuseit:youshouldandhavenochoice\0";
+usefulinyournextprojects:ihopeso;wouldyouuseit:youshould;\0";
 
     char **parsed_array = my_str_to_word_array(to_parse);
 

@@ -25,17 +25,12 @@ void basics(void)
 int main(void)
 {
 
-
     /* Invalid Write */
-    invalid_write_size_1();
-    // invalid_write_size_4();
-    // invalid_write_size_8();
+    // invalid_write_size_1();
 
 
     /* Invalid Read */
     // invalid_read_size_1();
-    // invalid_read_size_4();
-    // invalid_read_size_8();
 
 
     /* Memory leaks */
@@ -46,6 +41,9 @@ int main(void)
     /* Uninitialized */
     // uninitialized();
 
+
+    /* Extra */
+    gdb();
 
     return (0);
 }

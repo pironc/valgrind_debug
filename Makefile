@@ -11,6 +11,8 @@ SRC			=		src/main.c 									\
 					src/invalid_read.c 							\
 					src/memory_leaks.c 							\
 					src/uninitialized.c 						\
+\
+					src/gdb.c 									\
 
 OBJ 		= 		$(SRC:.c=.o)
 
