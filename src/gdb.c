@@ -11,13 +11,18 @@ int gdb(void)
 {
     int a = 4231;
     srand(time(NULL));
+    char *buffer = NULL;
 
     while (1) {
         int q = rand() % 132;
         if (q == 23) {
-            char *buffer = NULL;
+            buffer = NULL;
             buffer[0] = "helloworld";
             printf("%d", buffer);
         }
     }
+    for (int y = 0; buffer[y] != '\0'; y++) {
+        free(buffer[y]);
+    }
+    free(buffer);
 }
