@@ -20,6 +20,7 @@ int gdb(void)
             buffer[0] = "helloworld";
             printf("%d", buffer);
         }
+        printf("!!%d!!", a);
     }
     for (int y = 0; buffer[y] != '\0'; y++) {
         free(buffer[y]);
